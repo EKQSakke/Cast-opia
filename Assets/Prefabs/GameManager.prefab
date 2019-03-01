@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4638685149063445311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4638685149063445297}
+  - component: {fileID: 4638685149063445296}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4638685149063445297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4638685149063445311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4638685149063445296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4638685149063445311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa83aa0a699a6947a32fd994b8a9dda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  playerHealth: 5
+  maxPlayerHealth: 0
+  spellPoints: 030000000300000003000000
+  healthSpheres: 1
+  goldenSpheres: 0
+  playerElement: 0
+  attackCd: 2
+  maxAttackCd: 2
+  elementColors:
+  - {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+  - {r: 0.8301887, g: 0.17319416, b: 0.043075833, a: 1}
+  - {r: 0.14431292, g: 0.6509434, b: 0.622378, a: 1}
+  - {r: 0.81823653, g: 0.8679245, b: 0, a: 1}
+  elementMaterials:
+  - {fileID: 2100000, guid: ef1e2cd6237ac7f43b493b71d138583e, type: 2}
+  - {fileID: 2100000, guid: 00781318ee6a9904ebeaad70870e9eb7, type: 2}
+  - {fileID: 2100000, guid: 69222ae2d864d174f8542719013ed87e, type: 2}
+  - {fileID: 2100000, guid: f2cc0a4a6676be340be7032b26901469, type: 2}
+  levelCounter: 0
